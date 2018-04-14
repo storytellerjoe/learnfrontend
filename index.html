@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="design.css"/>
 </head>
 <body>
-<div class="wrapper">
-    <div class="navi">
-        <div class="header">
-            <img src="i/logo.svg" alt="hh.ru"/>
 
-            <form class="vacancy-search">
-                <input type="text" class="vacancy-search-name"/>
+
+<div class="wrapper">
+    <div class="menu">
+        <div class="header">
+            <img src="hh-logo.svg" alt="hh.ru"/>
+
+            <form class="search-input">
+                <input type="text" class="search-input-type"/>
 
                 <select class="vacancy-search-type">
                     <option>Вакансии</option>
@@ -20,72 +22,90 @@
                     <option>Компании</option>
                 </select>
 
-                <button type="submit" class="button-main">Найти</button>
+                <button type="submit" class="search-btn">Найти</button>
 
-                <div class="vacancy-search-advanced">
-                    <a href="" class="header-link">Расширенный поиск</a>
+                <div class="advanced-search">
+                    <a href="" class="advanced-search">Расширенный поиск</a>
                 </div>
             </form>
 
-            <div class="work-in">
-                <a href="" class="header-link">Работа в России</a>
+            <div class="country">
+                <a href="" class="country-link">Работа в России</a>
             </div>
 
-            <div class="locale">
-                <button type="button" class="locale-switcher">Сменить язык</button>
+            <div class="change-lang-btn">
+                <button type="button" class="change-lang-btn">Сменить язык</button>
             </div>
         </div>
-        <div class="menu">
-            <a href="" class="menu-item">Ищу работу</a>
-            <a href="" class="menu-item">Ищу сотрудников</a>
-            <a href="" class="menu-item">Помощь</a>
-            <a href="" class="menu-item">Компании</a>
-            <a href="" class="menu-item">Проекты</a>
-        </div>
+
+
+    <div class="main-menu">
+            <a href="" class="main-menu-link">Ищу работу</a>
+            <a href="" class="main-menu-link">Ищу сотрудников</a>
+            <a href="" class="main-menu-link">Помощь</a>
+            <a href="" class="main-menu-link">Компании</a>
+            <a href="" class="main-menu-link">Проекты</a>
     </div>
 
-    <div class="banner">
-        <h3 class="banner-title">HeadHunter</h3>
-        <img src="logo2.svg"/>
-        <a  href="https://hh.ru" class="banner-link">hh.ru</a>
-        <div class="banner-text">Строительство, недвижимость, эксплуатация, проектирование</div>
-        <a href="https://hh.ru/employer/1455?dpt=hh-1455-TECH" class="banner-link2" >Вакансии компании</a>
     </div>
+
+
 
     <div class="promo">
         <div class="cover-content">
             <div class="cover-background" style="background-img.png">
-            <h1 class="cover_title">Лица компании HeadHunter</h1>
-            <p class="cover_text">Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.</p>
+                <a href="" class="news-link">Статьи</a>
+                <a href="" class="news-link">Интересное</a>
+                <p class="text">/</>
+             <h1 class="cover-title">Лица компании HeadHunter</h1>
+            <p class="cover-text">Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.</p>
+                <p class="text">15 ноября 2015</p>
+                <p class="text">143</p>
+                <p class="text">4</p>
+            </div>
         </div>
+    </div>
+
+
+    <div class="banner">
+                <h3 class="banner-title">HeadHunter</h3>
+                <img src="logo2.svg" alt="hh.ru"/>
+                <a  href="https://hh.ru" class="banner-link">hh.ru</a>
+                <p class="banner-text">Строительство, недвижимость, эксплуатация, проектирование</p>
+            <a href="https://hh.ru/employer/1455?dpt=hh-1455-TECH" class="banner-link2" >Вакансии компании</a>
+    </div>
+
+
+
 
     <div class="persons">
         <div class="person-1">
             <h2 class="person-name">Ксения Колосова</h2>
             <p class="person-text">Руководитель проекта: «Все, что вы видите на наших сайтах,
                 было создано именно нами и нашими руками».</p>
-            <img class="person__image" src="person1-photo.png" alt="">
+            <img class="person-image" src="person1-photo.png" alt="photo.png">
             <p class="person-text">Раньше Ксения целенаправленно собиралась стать переводчиком французского языка, но поступила на физмат, а французский был забыт до уровня «жемапель КсенИ». Сейчас эта хрупкая девушка руководит
                 сразу четырьмя командами разработки в HeadHunter! С нами с 2012 года.</p>
         </div>
         <div class="person-2">
-            <h2 class="person-name">Анна Фердорченко</h2>
+            <h2 class="person-name">Анна Федорченко</h2>
             <p class="person-text">Менеджер проекта: «Мы верим в то, что настоящая работа обязательно должна быть любимой.
                 Так гораздо интереснее, чем сидеть на работе и бессмысленно отбывать часы».</p>
-            <img class="person__image" src="person2-photo.png" alt="">
+            <img class="person-image" src="person2-photo.png" alt="photo.png">
             <p class="person-text">В 2008 году Аня стала вторым по счету сотрудником в нашем только что открывшемся колл-центре в Ярославле, а в 2012 году переместилась на позицию руководителя службы технической поддержки и секретарей!
                 Теперь Аня вдохновенно трудится в отделе веб-сервисов в Москве, помогая нашему порталу день за днем становиться лучше.</p>
         </div>
         <div class="person-3">
             <h2 class="person-name">Максим Юдин</h2>
             <p class="person-text">Разработчик мобильных приложений: «У нас ценят свободу творчества и предпринимательский дух».</p>
-            <img class="person__image" src="person3-photo.png" alt="">
+            <img class="person-image" src="person3-photo.png" alt="photo.png">
             <p class="person-text">Максим занимается Android-разработкой с далекого 2007 года.
                 Он создавал приложения для самых разных компаний, включая job-сайты, и, по его словам, именно это и побудило его попасть в HeadHunter и сделать по-настоящему удобным поиск работы на смартфонах. Сейчас Максим довольно часто выступает
                 на конференциях с профильными докладами и продолжает разрабатывать собственные приложения.</p>
         </div>
+    </div>
 
-       <form class="comments-form">
+   <form class="comments-form">
            <h2>Оставьте комментарий</h2>
            <div class="name-input">
                <label for="name">
@@ -103,24 +123,24 @@
 
             <button type="submit">Оставить</button>
 
-        </form>
+    </form>
 
 
-        <div class="footer">
-            <div class="social">
+    <div class="footer">
+        <div class="social">
                 <a href="" class="social-link social-link_vk">VK</a>
                 <a href="" class="social-link social-link_fb">FB</a>
                 <a href="" class="social-link social-link_ok">OK</a>
                 <a href="" class="social-link social-link_tw">Twitter</a>
                 <a href="" class="social-link social-link_ig">Instagram</a>
-            </div>
+        </div>
 
-            <div class="footer-menu">
+        <div class="footer-menu">
                 <a href="" class="footer-menu-main">Работодателям</a>
                 <a href="" class="footer-menu-item">Прайс-лист</a>
                 <a href="" class="footer-menu-item">Производственный календарь</a>
                 <a href="" class="footer-menu-item">HR-Digital</a>
-            </div>
+        </div>
             <div class="footer-menu">
                 <a href="" class="footer-menu-main">Соискателям</a>
                 <a href="" class="footer-menu-item">Продвижение резюме</a>
