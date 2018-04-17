@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'ProximaNovaCondensed';
+    src: url('ProximaNovaCond-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCondensedBold';
+    src: url('ProximaNovaCond-Bold.woff') format('woff');
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Proxima Nova Condensed";
+}
+
+.header {
+    background-color: #f5f5f5;
+}
+
+.main-menu {
+    height: 40px;
+    background-color: #2c2c2c;
+}
+
+.main-menu-link {
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+
+.cover-title {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cover-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+}
+
+.person-text {
+    width: 700px;
+    font-size: 16px;
+    line-height: 1.33
+}
