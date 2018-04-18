@@ -11,7 +11,7 @@
 <div class="wrapper">
     <div class="menu">
         <div class="header">
-            <img src="source/hh-logo.svg" alt="hh.ru"/>
+            <img src="source/hh-logo.svg" alt="hh.ru" class="logo1"/>
 
             <form class="search-input">
                 <input type="text" class="search-input-type"/>
@@ -51,26 +51,38 @@
 
 
 
-    <div class="promo">
+    <div class="cover-promo">
         <div class="cover-content">
-            <div class="cover-background">
-                <a href="" class="news-link">Статьи</a>
-                <p class="text">/</>
-                <a href="" class="news-link">Интересное</a>
-                <h1 class="cover-title">Лица компании HeadHunter</h1>
-                <p class="cover-text">Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.</p>
-                <p class="text">15 ноября 2015</p>
-                <p class="text">143</p>
-                <p class="text">4</p>
+
+
+            <div class="blog-navigation">
+                <a href="" class="blog-navigation-link">Статьи</a>
+                <p>/</p>
+                <a href="" class="blog-navigation-link">Интересное</a>
+            </div>
+
+
+            <h1 class="cover-h1">Лица компании HeadHunter</h1>
+
+            <p class="cover-description">Не&nbsp;так давно люди искали работу через газеты и&nbsp;обзванивали знакомых.<br>
+                Но&nbsp;всего за&nbsp;10&nbsp;лет мир изменился.</p>
+
+            <div class="cover-info">
+                <p class="info-date">15 ноября 2015</p>
+                <p class="info-views">143</p>
+                <p class="info-comments">4</p>
+            </div>
+        </div>
             </div>
         </div>
     </div>
 
+
     <div class="about-hh">
-        <h3 class="about-hh-title">HeadHunter</h3>
-        <img src="logo2.svg" alt="hh.ru"/>
+        <h3 class="about-hh-link">HeadHunter</h3>
+        <img src="source/hh-logo2.svg" alt="hh.ru" class="logo2"/>
         <a  href="https://hh.ru" class="banner-link">hh.ru</a>
-        <p class="about-hh-text">Строительство, недвижимость, эксплуатация, проектирование</p>
+        <p class="about-hh-link">Строительство, недвижимость, эксплуатация, проектирование</p>
         <a href="https://hh.ru/employer/1455?dpt=hh-1455-TECH" class="banner-link2" >Вакансии компании</a>
     </div>
 
@@ -104,18 +116,15 @@
 
     <form class="comments-form">
         <h2>Оставьте комментарий</h2>
-        <div class="name-input">
-            <label for="name">
-                Имя
-            </label>
-            <input id="name" type="name" class="name-input"/>
+
+        <div class="comments-form-all-inputs">
+            <label for="name">Имя</label>
+            <input id="name" type="text" class="comments-form-input"/>
         </div>
 
-        <div class="textarea">
-            <label for="textarea">
-                Комментарий:
-            </label>
-            <textarea id="textarea" class="textarea"></textarea>
+        <div class="input">
+            <label for="text">Комментарий:</label>
+            <textarea id="text" class="comments-form-input"></textarea>
         </div>
 
         <button type="submit" class="submit-button">Оставить</button>
