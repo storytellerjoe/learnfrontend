@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family:'ProximaNovaCondensedBold';
+    font-family: 'ProximaNovaCondensed-Bold';
     src: url('ProximaNovaCond-Bold.woff') format('woff');
 }
 
@@ -12,6 +12,7 @@
     margin: 0 auto;
     font-family: 'ProximaNovaCondensed', Arial, sans-serif;
 }
+
 
 .header {
     background-color: #f5f5f5;
@@ -70,7 +71,6 @@
     color: #4a90e2;
 }
 
-
 .cover-h1 {
     font-size: 72px;
     font-weight: bold;
@@ -107,6 +107,7 @@
 
 
 .about-hh {
+    font-family: ProximaNovaCondensed;
     margin-top: 60px;
     margin-bottom: 60px;
     border-style: solid;
@@ -114,7 +115,10 @@
     border-color: #e1e1e1;
 }
 
+
 .about-hh-title {
+    font-family: ProximaNovaCondensed;
+    font-weight: bold;
     font-size: 48px;
     color: #333333;
 }
@@ -131,6 +135,8 @@
 
 
 .person-name {
+    font-family: ProximaNovaCondensed;
+    text-decoration: none;
     font-size: 36px;
     font-weight: normal;
     margin: 0;
@@ -173,4 +179,26 @@
 
 .submit-button:active {
     background: #005fbe;
+}
+h2 {
+    font-family: ProximaNovaCondensed;
+}
+
+.comments-form-input {
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0;
+    border-color: #e1e1e1;
+    background-color: white;
+    height: 38px;
+    padding: 0 11px;
+}
+
+.comments-form-name {
+    font-family: ProximaNovaCondensed;
+}
+
+.comments-form-text {
+    font-family: ProximaNovaCondensed;
 }
