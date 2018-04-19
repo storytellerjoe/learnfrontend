@@ -1,26 +1,21 @@
 @font-face {
     font-family: 'ProximaNovaCondensed';
-    src: url('ProximaNovaCond-Regular.otf') format('otf');
+    src: url('ProximaNovaCond-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family:'ProximaNovaCondensedBold';
-    src: url('ProximaNovaCond-Bold.otf') format('otf');
+    src: url('ProximaNovaCond-Bold.woff') format('woff');
 }
 
 .wrapper {
     margin: 0 auto;
-    font-family: Arial, sans-serif;
-}
-
-p {
-    font-family: 'Arial';
+    font-family: 'ProximaNovaCondensed', Arial, sans-serif;
 }
 
 .header {
     background-color: #f5f5f5;
 }
-
 
 
 .menu-link {
@@ -135,9 +130,7 @@ p {
 }
 
 
-
 .person-name {
-    font-family: ProximaNovaCondsend;
     font-size: 36px;
     font-weight: normal;
     margin: 0;
