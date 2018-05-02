@@ -288,6 +288,7 @@ body {
 .submit-button:active {
     background: #005fbe;
 }
+
 h2 {
     font-family: ProximaNovaCondensed;
 }
@@ -318,7 +319,6 @@ h2 {
     display: flex;
 }
 
-.footer-menu-items
 
 .footer-menu-main {
     text-decoration: none;
